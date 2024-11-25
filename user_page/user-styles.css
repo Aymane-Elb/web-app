@@ -1,0 +1,144 @@
+    *{
+        margin: 0;
+        padding : 0;
+    }
+    .image_container{
+      width: 200px;
+      height: 100px;
+    }
+    /* .image_container .logo_img{
+      background-color: white;
+      width: 200px;
+      height: 100px;
+    } */
+      html, body {
+      min-height: 100%;
+      }
+      body, div, form, input, select, p { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px;
+      color: #030303;
+      }
+      body {
+      background-image: url('ENSA\ KH.png');
+      background-repeat: no-repeat;
+      background-position:  top left;
+      background-color: #ffffff;
+      background-blend-mode: transparent;
+      }
+      .pass .pass{
+        display: inline-block;
+        text-decoration-style:1px dotted white;
+        color: bisque;
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding: 0;
+      }
+      .pass .pass .anchor :visited{
+        color : white;
+        text-decoration: dashed;
+      }
+      h1, h2 {
+      text-transform: uppercase;
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+      font-weight: 400;
+      color: black;
+      }
+      h2 {
+      margin: 0 0 0 8px;
+      }
+      .main-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 25px;
+      background: hsla(64, 9%, 35%, 0.641); 
+      z-index: 0;
+      }
+      .left-part, form {
+      padding: 25px;
+      }
+      .left-part {
+      text-align: center;
+      }
+      .fa-graduation-cap {
+      font-size: 72px;
+      }
+      form {
+      background: rgba(0, 0, 0, 0.7); 
+      }
+      .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      }
+      .info {
+      display: flex;
+      flex-direction: column;
+      }
+      input, select {
+      padding: 5px;
+      margin-bottom: 30px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #eee;
+      border-radius: 6px;
+      }
+      input::placeholder {
+      color: rgb(249, 222, 222);
+      }
+      .btn-item, button {
+      padding: 10px 5px;
+      margin-top: 20px;
+      border-radius: 6px;
+      border-style: solid;
+      border-width: 2px;
+      border-color:silver;
+      box-shadow: rgb(0, 0, 0) 15px 28px 25px -18px;
+      box-sizing: border-box;
+      background-color:hsl(0, 96%, 17%); 
+      text-decoration: none;
+      font-family: cursive;
+      font-size: 15px;
+      font-weight: 300;
+      color: rgb(255, 255, 255);
+      }
+      .btn-item {
+      display: inline-block;
+      margin: 20px 5px 0;
+      }
+      .btn-item, button:hover {
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+        transform: translate3d(0, 2px, 0);
+      }
+      
+      .btn-item, button:focus {    
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+      }
+      button {
+      width: 100%;
+      }
+      button:hover, .btn-item:hover {
+        background-color:hsl(0, 95%, 29%);
+        box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+        transform: translate3d(0, 2px, 0);
+        border: none;
+      }
+      @media (min-width: 568px) {
+      html, body {
+      height: 100%;
+      }
+      .main-block {
+      flex-direction: row;
+      height: calc(100% - 50px);
+      }
+      .left-part, form {
+      flex: 1;
+      height: auto;
+      }
+      }
